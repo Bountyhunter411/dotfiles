@@ -8,6 +8,7 @@ fi
 # alias'
 alias ls='ls -l --color=auto'
 alias la='ls -la --color=auto'
+alias rr='rm -rf'
 alias grep='grep --color' 
 alias rgrep='rgrep -n --color' 
 alias diff='colordiff' 
