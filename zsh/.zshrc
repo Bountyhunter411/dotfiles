@@ -8,7 +8,6 @@ fi
 # alias'
 alias ls='ls -l --color=auto'
 alias la='ls -la --color=auto'
-alias rr='rm -rf'
 alias grep='grep --color' 
 alias rgrep='rgrep -n --color' 
 alias diff='colordiff' 
@@ -37,7 +36,7 @@ autoload -U promptinit && promptinit
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/zsh/plugins/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
